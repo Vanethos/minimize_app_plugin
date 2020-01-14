@@ -1,6 +1,9 @@
-# minimize_app
+# Minimize App Plugin
 
 A flutter plugin to minimize the current Flutter App
+
+![minimize_plugin](https://user-images.githubusercontent.com/10728633/72349517-1aefcf80-36f6-11ea-866c-6e4bc9f63fd2.gif)
+
 
 ## Usage
 
