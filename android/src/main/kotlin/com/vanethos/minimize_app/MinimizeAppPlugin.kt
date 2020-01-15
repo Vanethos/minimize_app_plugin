@@ -42,6 +42,7 @@ public class MinimizeAppPlugin(): FlutterPlugin, MethodCallHandler, ActivityAwar
     fun registerWith(registrar: Registrar) {
       val channel = MethodChannel(registrar.messenger(), "minimize_app")
       val plugin = MinimizeAppPlugin();
+      plugin.activity = registrar.activity()
       channel.setMethodCallHandler(plugin)
     }
   }
