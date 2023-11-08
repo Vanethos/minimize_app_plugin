@@ -42,7 +42,10 @@ class _MyAppState extends State<MyApp> {
               Text("Count: $_counter"),
               MaterialButton(
                 color: Theme.of(context).primaryColor,
-                child: Text("Minimize the app", style: TextStyle(color: Colors.white),),
+                child: Text(
+                  "Minimize the app",
+                  style: TextStyle(color: Colors.white),
+                ),
                 onPressed: () => MinimizeApp.minimizeApp(),
               ),
             ],
